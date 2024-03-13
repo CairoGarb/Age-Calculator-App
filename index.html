@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32x32.png">
+  <link rel="stylesheet" href="style.css">
+  <title>Frontend Mentor | Age calculator app</title>
+
+</head>
+<body>
+  <!-- Main -->
+  <main>
+    <!-- Container Start -->
+    <div class="container">
+      <!-- Date Input Start -->
+      <div class="date">
+        <div class="input-control">
+          <label for="day">Day</label>
+          <input type="text" id="day" name="day" placeholder="DD">
+          <div class="error-msg">Error</div>
+        </div>
+        <div class="input-control">
+          <label for="month">Month</label>
+          <input type="text" id="month" name="month" placeholder="MM">
+          <div class="error-msg">Error</div>
+        </div>
+        <div class="input-control">
+          <label for="year">Year</label>
+          <input type="text" id="year" name="year" placeholder="YYYY">
+          <div class="error-msg">Error</div>
+        </div>
+      </div>
+      <!-- Date Input End -->
+
+      <!-- Arrow -->
+      <div class="arrow" onclick="submit()">
+          <img src="images/icon-arrow.svg" alt="arrow icon">
+      </div>
+      <!-- Arrow -->
+
+      <!-- Result Start -->
+      <div class="result">
+        <p><span class="y-res">--</span> years</p>
+        <p><span class="m-res">--</span> months</p>
+        <p><span class="d-res">--</span> days</p>
+      </div>
+      <!-- Result End -->
+    </div>
+    <!-- Container End -->
+  </main>
+  
+  <!-- Footer -->
+  <footer class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="https://www.frontendmentor.io/profile/CairoGarb" target="_blank">Cairo Garbelotto</a>.
+  </footer>
+
+<!-- Script -->
+<script src="script.js"></script>
+</body>
+</html>
